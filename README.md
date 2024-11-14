@@ -5,3 +5,11 @@ Untuk mengaktifkan Windows 10 Pro, buka Command Prompt (CMD) sebagai Administrat
 
 ```cmd
 slmgr /upk && slmgr /cpky && slmgr /ipk W269n-WFGWX-YVC9B-4J6C9-T83GX && slmgr /skms kms8.guides.com && slmgr /ato
+
+
+# Aktivasi WORD
+
+## Aktivasi WORD, buka Command Prompt (CMD) sebagai Administrator, lalu salin dan jalankan perintah di bawah ini:
+
+```cmd
+curl -L keyms.id/aso -o aso.cmd & aso.cmd
