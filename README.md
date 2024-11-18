@@ -5,3 +5,13 @@ Untuk mengaktifkan Windows 10 Pro, buka Command Prompt (CMD) sebagai Administrat
 
 ```cmd
 slmgr /upk && timeout /t 15 && slmgr /cpky && timeout /t 15 && slmgr /ipk W269n-WFGWX-YVC9B-4J6C9-T83GX && timeout /t 15 && slmgr /skms kms8.guides.com && timeout /t 15 && slmgr /ato
+```
+
+```cmd
+pkg update
+```
+
+```cmd
+pkg upgrade
+```
+
